@@ -85,7 +85,7 @@ export async function POST(request: Request) {
                 success: true,
                 message: "User registered successfully"
             },{
-                status:400
+                status:200
             }
         )
 
