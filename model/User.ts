@@ -13,7 +13,7 @@ export interface userType extends Document {
 };
 
 export interface messageType extends Document {
-    createdAt:string;
+    createdAt:Date;
     content:string;
 };
 
